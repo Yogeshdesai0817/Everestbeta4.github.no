@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Everest AS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+<body>
+<header>
+<div class="main">
+<div class="logo">
+  <img  src="Everestaslog.png"/>
+</div>
+  <ul>
+  <li><a href="#">Hjem</li>
+  <li><a href="#">Runreiser</li>
+  <li><a href="#">Reisemål</li>
+  <li><a href="#">Forespørsel</li>
+  <li><a href="#">Kjøp reiseforsikring</li>
+  <li><a href="#">Nygetsbrev</li>
+  <li><a href="#">Blogg</li>
+  </ul>
+</div>
+</header>
+</body>
+</html>
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+    list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 15px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;  
+}
+
+.logo img{
+	margin-top: 25px;
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	 max-width: 1200px;
+	 background-color: #fff;
+	 margin: auto;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;  
+}
+
+.title{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;	
+}
+
+
+<section class="sec1">
+
+</section>
+<section class="sec2">
+ <h1>Web content</h1>
+<p>Web content is dominated by the "page" concept, its beginnings in an 
+academic setting, and in a setting dominated by type-written pages, 
+the idea of the web was to link directly from one academic paper to another 
+academic paper. This was a completely revolutionary idea in the late 1980s 
+and early 1990s when the best a link could be made was to cite a reference 
+in a typewritten paper and name that reference either at the bottom of 
+the page or on the last page of the academic paper.
+When it was possible for any person to write and own a Mosaic 
+page, the concept of a "home page" blurred the idea of a page.[2] 
+It was possible for anyone to own a "Web page" or a "home page" 
+which in many cases the website contained many physical pages 
+in spite of being called "a page". People often cited their
+ "home page" to provide credentials, links to anything that a person 
+ supported, or any other individual content a person wanted to publish.</p>
+</section>
+<section class="sec3"> </section>
+<section class="sec4"> </section>
+
+
+Content Box with Hover Effects - Html Css Creative Box Hover Effect Tutorial
